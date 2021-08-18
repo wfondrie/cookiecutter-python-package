@@ -1,0 +1,4 @@
+cookiecutter
+pytest
+pre-commit
+black
