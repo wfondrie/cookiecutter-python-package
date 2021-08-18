@@ -1,4 +1,4 @@
-# A template for creating a Python Package
+# A template for creating a Python package
 
 This is my template for creating new Python packages. It uses
 [cookiecutter](https://github.com/cookiecutter/cookiecutter) to create a
@@ -23,5 +23,5 @@ pip install cookiecutter
 ## Usage
 To create a new Python package it run:
 ``` sh
-cookiecutter gh:wfondrie/cookiecutter-python-package.git
+cookiecutter gh:wfondrie/cookiecutter-python-package
 ```
