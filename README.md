@@ -21,7 +21,7 @@ pip install cookiecutter
 
 
 ## Usage
-To create a new Python package it run:
+To create a new Python package run:
 ``` sh
 cookiecutter gh:wfondrie/cookiecutter-python-package
 ```
