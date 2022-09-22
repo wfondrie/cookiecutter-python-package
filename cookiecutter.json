@@ -5,15 +5,6 @@
     "author_email": "Your email",
     "description": "A short description of the project.",
     "license": ["Apache 2.0", "MIT", "GPLv3", "AGPLv3"],
-    "gh_user": "The GitHub user that owns the repository.",
-    "repo_url": "https://github.com/{{ cookiecutter.gh_user }}/{{ cookiecutter.package_name }}",
-    "docs_url": "https://{{ cookiecutter.package_name }}.readthedocs.io",
-    "issues_url": "{{ cookiecutter.repo_url }}/issues",
-    "discussion_url": "{{ cookiecutter.repo_url }}/discussions",
-    "require_numpy": ["yes", "no"],
-    "require_pandas": ["yes", "no"],
-    "require_sklearn": ["yes", "no"],
-    "require_numba": ["yes", "no"],
     "_copy_without_render": [
         ".github/workflows/publish.yml",
         ".github/workflows/tests.yml"
