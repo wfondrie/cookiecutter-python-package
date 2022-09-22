@@ -5,6 +5,9 @@
     "author_email": "Your email",
     "description": "A short description of the project.",
     "license": ["Apache 2.0", "MIT", "GPLv3", "AGPLv3"],
+    "gh_user": "The GitHub user that owns the repository.",
+    "repo_url": "https://github.com/{{ cookiecutter.gh_user }}/{{ cookiecutter.package_name }}",
+    "issues_url": "{{ cookiecutter.repo_url }}/issues",
     "_copy_without_render": [
         ".github/workflows/publish.yml",
         ".github/workflows/tests.yml"

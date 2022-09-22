@@ -13,17 +13,17 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: {{ '${{ matrix.os }}' }}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.8
+    - name: Set up Python 3
       uses: actions/setup-python@v2
       with:
-        python-version: "3.8"
+        python-version: "3.x"
 
     - name: Install dependencies
       run: |
@@ -38,7 +38,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Run unit and system tests
       run: |
-        pytest --cov=ppx tests/
+        pytest --cov={{ cookiecutter.import_name }} tests/
     - name: Upload coverage to codecov
       uses: codecov/codecov-action@v1
       with:

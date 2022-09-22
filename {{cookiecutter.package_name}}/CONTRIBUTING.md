@@ -3,16 +3,16 @@
 First off, thank you for taking the time to contribute.
 
 The following document provides guidelines for contributing to the
-documentation and the code of {{ cookiecutter.package_name }}. **No contribution is too small!** Even
-fixing a simple typo in the documentation is immensely helpful.
+documentation and the code of {{ cookiecutter.package_name }}. **No
+contribution is too small!** Even fixing a simple typo in the documentation is
+immensely helpful.
 
 
 ## Contributing to the documentation
 
-We use [sphinx](https://www.sphinx-doc.org/en/master/) generate our
-documentation and deploy it to this site. Most of the pages on the site are
-created from simple text files written in the reStructuredText markup language.
-There are three exceptions to this:
+We use [mkdocs](https://www.mkdocs.org/) generate our documentation and deploy
+it to this site. Most of the pages on the site are created from simple text
+files written in markdown. There are three exceptions to this:
 
 1. The API and command line documentation are automatically generated from the
    documentation contained in the code.
@@ -21,20 +21,6 @@ There are three exceptions to this:
 
 3. The Code of Conduct, Release Notes, and this Contributing document are 
    markdown files that live in the root of the {{ cookiecutter.package_name }} repository.
-
-### Editing most documents
-
-The easiest way to edit a document is by clicking the "Edit on GitHub" like in
-the top right hand corner of each page. You'll be taken to GitHub where
-you can click on the pencil to edit the document.
-
-You can then make your changes directly on GitHub. Once you're finished, fill
-in a description of what you changed and click the "Propose Changes" button.
-
-Alternatively, these documents live in the `docs/source` directory of the
-repository and can be edited like code. See [Contributing to the
-code](#contributing-to-the-code) below for more details on contributing this
-way.
 
 
 ## Contributing to the code

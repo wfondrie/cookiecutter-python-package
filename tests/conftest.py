@@ -13,10 +13,6 @@ args = {
     "package_name": "test-package",
     "author_name": "Will",
     "open_source_license": "GPLv3",
-    "require_numpy": "no",
-    "require_pandas": "no",
-    "require_sklearn": "no",
-    "require_numba": "no",
 }
 
 def system_check(basename):
